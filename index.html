@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevCraft — Web Development Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="nav-inner">
+      <a class="brand" href="#top">&lt;DevCraft<span class="slash">/</span>&gt;</a>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-solid nav-cta" href="#contact">Start a Project</a>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <span class="comment-label">// small studio, real code</span>
+        <h1>Ship it, don't<br>just sketch it.</h1>
+        <p>DevCraft builds fast, accessible websites and web apps — from the first commit to the deployed URL.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-solid" href="#contact">Start a Project</a>
+          <a class="btn btn-ghost" href="#work">View the Work</a>
+        </div>
+      </div>
+
+      <div class="demo-pair">
+        <div class="window editor">
+          <div class="window-bar">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="tab">hero.html</span>
+          </div>
+          <div class="code">
+            <pre><span class="ln">1</span><span class="tag">&lt;section</span> <span class="attr">class</span>=<span class="str">"hero"</span><span class="tag">&gt;</span>
+<span class="ln">2</span>  <span class="cmt">&lt;!-- keep it simple --&gt;</span>
+<span class="ln">3</span>  <span class="tag">&lt;h1&gt;</span>Ship it, don't<span class="tag">&lt;br/&gt;</span>
+<span class="ln">4</span>  just sketch it.<span class="tag">&lt;/h1&gt;</span>
+<span class="ln">5</span>  <span class="tag">&lt;p&gt;</span>Web dev, built to launch.<span class="tag">&lt;/p&gt;</span>
+<span class="ln">6</span>  <span class="tag">&lt;button&gt;</span>Start a project<span class="tag">&lt;/button&gt;</span>
+<span class="ln">7</span><span class="tag">&lt;/section&gt;</span><span class="cursor">&#9608;</span></pre>
+          </div>
+        </div>
+
+        <div class="window browser">
+          <div class="window-bar">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="addr">&#128274; devcraft.studio</span>
+          </div>
+          <div class="preview">
+            <h2>Ship it, don't<br>just sketch it.</h2>
+            <p>Web dev, built to launch.</p>
+            <span class="preview-btn">Start a project</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="comment-label">// what we build</span>
+        <h2>Four kinds of sites, one standard</h2>
+        <p>Every project gets the same baseline: semantic markup, a layout that holds up on a phone, and a load time you
+          won't apologize for.</p>
+      </div>
+      <div class="card-grid">
+        <div class="card">
+          <span class="card-tag">&lt;landing-page&gt;</span>
+          <h3>Landing Pages</h3>
+          <p>One page, one goal. Built to convert, load in under a second, and look right on any screen.</p>
+        </div>
+        <div class="card">
+          <span class="card-tag">&lt;web-app&gt;</span>
+          <h3>Web Applications</h3>
+          <p>Dashboards, portals, and tools with real logic behind the buttons — not just static pages.</p>
+        </div>
+        <div class="card">
+          <span class="card-tag">&lt;storefront&gt;</span>
+          <h3>E-Commerce</h3>
+          <p>Storefronts wired to a cart, a payment processor, and inventory that actually stays in sync.</p>
+        </div>
+        <div class="card">
+          <span class="card-tag">&lt;support&gt;</span>
+          <h3>Maintenance &amp; Support</h3>
+          <p>Bug fixes, content updates, and the occasional late-night server alert — handled.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="process" id="process">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="comment-label" style="color:var(--teal)">// how a project actually moves</span>
+        <h2>Five stages, start to deploy</h2>
+        <p>This is the real order, not a sales pitch — each stage produces something the next one needs.</p>
+      </div>
+      <ol class="process-list">
+        <li><span class="num">01</span>
+          <div>
+            <h3>Discover</h3>
+            <p>A call, a form, or both. We learn what the site needs to do before anyone opens an editor.</p>
+          </div>
+        </li>
+        <li><span class="num">02</span>
+          <div>
+            <h3>Design</h3>
+            <p>Wireframes and a style guide, reviewed with you before a single line of code is written.</p>
+          </div>
+        </li>
+        <li><span class="num">03</span>
+          <div>
+            <h3>Develop</h3>
+            <p>Semantic HTML, styled with care, wired up with just enough JavaScript to do the job.</p>
+          </div>
+        </li>
+        <li><span class="num">04</span>
+          <div>
+            <h3>Deploy</h3>
+            <p>Pushed to production and tested on real devices — not just a laptop at 1920&times;1080.</p>
+          </div>
+        </li>
+        <li><span class="num">05</span>
+          <div>
+            <h3>Support</h3>
+            <p>A maintenance window after launch, because real sites need upkeep, not just a launch date.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="comment-label">// recent work</span>
+        <h2>A few things we've shipped</h2>
+      </div>
+      <div class="work-grid">
+        <article class="work-card">
+          <div class="work-thumb thumb-a">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          </div>
+          <h3>Harborline Roasters</h3>
+          <p class="stack"><span>HTML</span><span>CSS</span><span>JS</span><span>Stripe</span></p>
+        </article>
+        <article class="work-card">
+          <div class="work-thumb thumb-b">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          </div>
+          <h3>Meridian Analytics</h3>
+          <p class="stack"><span>React</span><span>Node</span></p>
+        </article>
+        <article class="work-card">
+          <div class="work-thumb thumb-c">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          </div>
+          <h3>Fable &amp; Co.</h3>
+          <p class="stack"><span>HTML</span><span>CSS</span></p>
+        </article>
+        <article class="work-card">
+          <div class="work-thumb thumb-d">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          </div>
+          <h3>Ninth Street Clinic</h3>
+          <p class="stack"><span>React</span><span>Node</span><span>Postgres</span></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="quote-band">
+    <div class="section-inner">
+      <blockquote>&ldquo;They handed off a site that our own team could actually edit afterward — no mystery build step,
+        no calling them every time we changed a headline.&rdquo;</blockquote>
+      <p class="quote-cite">&mdash; M. Alvarez, Harborline Roasters</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="section-inner footer-top">
+      <div class="terminal">
+        <div class="window-bar">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+        <div class="term-body">
+          <span class="prompt">$</span> npx create-project <span class="flag">--with</span>=devcraft<span
+            class="cursor">&#9608;</span>
+        </div>
+      </div>
+      <div class="footer-cta">
+        <h2>Have a project in mind?</h2>
+        <p>Tell us what the site needs to do. We'll tell you what it takes to get there.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-solid" href="mailto:hello@devcraft.studio">Email Us</a>
+          <a class="btn btn-ghost" href="#top">Back to Top</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot-inner">
+      <div>
+        <h4>Studio</h4>
+        <p>A small web development studio building sites and apps that stay easy to maintain.</p>
+      </div>
+      <div>
+        <h4>Sitemap</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#work">Work</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>hello@devcraft.studio</li>
+          <li>Replies within 2 business days</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; DevCraft Studio</span>
+      <span>Tools we reach for: HTML5 &middot; CSS3 &middot; JavaScript &middot; React &middot; Node.js &middot;
+        Git</span>
+    </div>
+  </footer>
+
+</body>
+
+</html>
